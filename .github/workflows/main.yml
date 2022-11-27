@@ -70,7 +70,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
-        passphrase: ${{ secrets.DOCKER_PASSWORD }}
+        passphrase: ${{ secrets.PASSPHRASE }}
         script: |
           sudo docker pull stanislavgitnikov/inspiring_stonebraker
           sudo docker stop $(sudo docker ps -a -q)
