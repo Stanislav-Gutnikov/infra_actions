@@ -67,8 +67,8 @@ jobs:
     - name: executing remote ssh commands to deploy
       uses: appleboy/ssh-action@master
       with:
-        host: 158.160.38.76
-        username: ${{ secrets.USER }}
+        host: 62.84.115.235
+        username: stasgutnikov0853
         key: ${{ secrets.SSH_KEY }}
         script: |
           sudo docker pull stanislavgitnikov/inspiring_stonebraker
