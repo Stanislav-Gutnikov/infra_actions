@@ -83,5 +83,5 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
-        token: ${{ secrets.TELEGRAM_TOKEN }}
+        token: 5682867024:AAHcwCrzwlCMu-bW_INTdWdY2Zqm9ePQBgM
         message: ${{ github.workflow }} успешно выполнен! 
