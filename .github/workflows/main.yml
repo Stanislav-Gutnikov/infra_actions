@@ -71,7 +71,7 @@ jobs:
         username: stasgutnikov0853
         key: ${{ secrets.SSH_KEY }}
         script: |
-          sudo docker pull stanislavgitnikov/inspiring_stonebraker
+          sudo docker pull stanislavgutnikov/inspiring_stonebraker
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 stanislavgitnikov/inspiring_stonebraker
+          sudo docker run --rm -d -p 5000:5000 stanislavgutnikov/inspiring_stonebraker
 
